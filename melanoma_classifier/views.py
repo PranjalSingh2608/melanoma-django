@@ -5,7 +5,7 @@ import numpy as np
 from .apps import VGGModelConfig
 from .models import ImageClassify
 from .forms import ImageForm
-from keras.preprocessing.image import load_img,img_to_array
+from tensorflow.keras.preprocessing.image import load_img,img_to_array
 import matplotlib.pyplot as plt
 import cv2
 
